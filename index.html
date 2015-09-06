@@ -1,0 +1,64 @@
+<!doctype html>
+
+<!--html start-->
+<html>
+
+<!--head start-->
+<head>
+	<title> Register </title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<!--head end-->
+
+<!--body start-->
+<body>
+
+<!--container start-->
+<div class="container">
+<div class="col-xs-12 col-sm-4"></div>
+<!-- register starts -->
+<div class="col-xs-12 col-sm-4 register">
+
+<!--form start-->
+<form name="register" id="register" action="#" method="post">
+<div class="form-group">
+	First Name: <input type="text" id="f_name" name="f_name" placeholder="Type your FirstName" required>
+	Last Name: <input type="text" id="l_name" name="l_name" placeholder="Type your LastName" required >
+	User Name: <input type="text" id="u_name" name="u_name" placeholder="Type your Username" required >
+	Email: <input type="email" id="email" name="email" placeholder="Type your Email" required >
+	Password: <input type="password" id="password" name="password" placeholder="Type your Password" required >
+	Confirm Password: <input type="password" id="c_password" name="c_password" placeholder="Retype Password"  required>
+	Mobile Phone: <input type="text" id="mobile" name="mobile" placeholder="+880"required>
+	Gender: <br><input type="radio" id="gender" name="gender" value="male" class="gnr" required > <span>Male</span> <br>
+					<input type="radio" id="gender" name="gender" value="female" class="gnr" required> <span>Female</span>   <br>
+	
+	<div class="checkbox">
+  <label><input type="checkbox" id="checkbox" value="" required><b>I agree to your terms and conditions</b></label>
+</div>
+				
+	
+  <input type="submit" value="Register">
+  </div>
+</form>
+<!--form end-->
+</div>
+
+<!-- register ends -->
+<div class="col-xs-12 col-sm-4"></div>
+</div> <!-- container ends -->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/validate.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/messages.js"></script>
+</body>
+<!--body end-->
+
+</html>
+
+<!--html end-->

@@ -1,0 +1,58 @@
+.register {	
+	background-color:#77cc6e;
+	color: #232b2e;
+	font-weight:bold;		
+	overflow:hidden;
+	padding:10px 20px;
+	border-radius:12px;
+}
+
+input[type=text],[type=password],[type=email]{
+    width: 100%;
+    color: #666666;
+    margin-bottom: 10px;
+    background-color: oldlace;
+    padding: 10px;
+    display: block;
+	border-radius:5px;
+}
+
+::-webkit-input-placeholder {
+   font-weight:normal;
+}
+
+::-moz-input-placeholder {
+   font-weight:normal;
+}
+
+:-ms-input-placeholder {  
+   font-weight:normal;
+}
+
+span {
+	font-weight:normal;
+	
+}
+input[type=submit] {
+    width:100px;
+    background-color: #232b2e;
+    color: oldlace;
+    font-weight: bold;
+	float:right;
+	padding:10px;
+	margin-right:26px;
+	border-radius:5px;
+}
+
+input[type=submit]:hover {
+	background-color: #484848;
+    color: white;
+    font-weight: bold;
+	float:right;
+	padding:10px;
+	transition: all .5s;
+
+}
+
+
+
